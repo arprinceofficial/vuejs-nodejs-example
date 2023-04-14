@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-      working-directory: ./home/runner/work/vuejs-nodejs-example/vuejs-nodejs-example/api/package.json
+      working-directory: ./home/runner/work/vuejs-nodejs-example/vuejs-nodejs-example/api/package.json 
     - run: npm run build
       working-directory: ./home/runner/work/vuejs-nodejs-example/vuejs-nodejs-example/api/package.json
     - run: npm run dev
